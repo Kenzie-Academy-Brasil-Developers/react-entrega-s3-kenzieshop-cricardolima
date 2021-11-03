@@ -1,13 +1,13 @@
 import { Divider } from "@material-ui/core"
-import { DisplayProducts } from "../../components/displayProducts"
+import { CartDisplay } from "../../components/cart"
 import { Header } from "../../components/header"
 
-export const Home = () => {
+export const Cart = () => {
     return (
         <>
             <Header/>
             <Divider />
-            <DisplayProducts/>
+            <CartDisplay/>
         </>
     )
 }
